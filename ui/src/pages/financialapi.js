@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 // Base URL for your backend API
-const API_BASE_URL = 'http://localhost:5000'; // Change this to your actual backend API URL
+const API_BASE_URL = 'https://kyc-hxkh.onrender.com/customers'; // Change this to your actual backend API URL
 
 export const fetchData = async () => {
   const res = await axios.get(`${API_BASE_URL}/api/dashboard-data`);

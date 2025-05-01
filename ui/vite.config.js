@@ -1,11 +1,6 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  root: './',  // Ensure the root is correctly set to 'frontend' folder
-  build: {
-    outDir: './build',  // Specify the output directory for the build
-    rollupOptions: {
-      input: './index.html', // Explicitly specify entry HTML file
-    },
-  },
-});
+  plugins: [react()],
+})

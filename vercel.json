@@ -1,10 +1,10 @@
 {
-    "projects": {
+
       "ui": {
         "rootDirectory": "ui",
         "buildCommand": "npm run build",
         "outputDirectory": "dist"
       }
-    }
+
   }
   
